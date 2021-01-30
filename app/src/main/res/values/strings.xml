@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Health Search</string>
+    <string name="Managing_Your_Account">
+       How to Create a Account ->
+       \n\n
+
+       Goto NEW USER? SIGN UP INSTEAD >> Fill up all the GENUINE Details >> Click on SIGN UP.
+
+       \n\n
+
+       How to reset a password ->
+       \n\n
+
+       Goto LOGIN page >> FORGOT PASSWORD >> PASSWORD RESET link in EMAIL >> Change Password.
+
+       \n\n
+
+
+       How to upload a profile photo ->
+       \n\n
+
+       Goto Profile >> Click on Image >> Select Image >> OK.
+   </string>
+
+    <string name="Doctor_Details">
+       How to find a Departmental Doctor and Doctor details->
+       \n\n
+
+       Goto Doctor >> Select a Department >> Select Doctor.
+       \n\n
+
+       How to book an appointment ->
+       \n\n
+
+       Goto Doctor >> Select a Department >> Select Doctor >> Book Appointment.
+   </string>
+
+    <string name="Hospital_Details">
+       How to find a Departmental Hospital ->
+       \n\n
+
+       Goto Hospital >> Select a Department.
+       \n\n
+
+        How to find a Hospital Details ->
+       \n\n
+
+       Goto Hospital >> Select a Department >> Select Hospital.
+   </string>
+
+    <string name="Call_an_Ambulance">
+       How to Call an Ambulance ->
+       \n\n
+
+       Goto LOGIN page >> Click on Ambulance  OR  Goto Home Page >> Click on Ambulance.
+       \n\n
+   </string>
+
+</resources>

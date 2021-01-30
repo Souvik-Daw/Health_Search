@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".showDoctorData"
+        android:orientation="vertical"
+        android:background="@drawable/dd">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/DocName"
+                android:layout_below="@+id/topName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Doctor Name"
+                android:textColor="#000000"
+                android:textSize="39dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"/>
+
+
+
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/DocName">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginLeft="30dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Email : "
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/DocMail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mobile No."
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/DocNumber"
+                            android:textColor="#000000"
+                            android:textSize="20dp"/>
+                        <!--
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Doctor Type : "
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"/>
+
+                        <TextView
+                            android:id="@+id/DocType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="20dp"/>
+                        -->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Degree : "
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/DocDegree"
+                            android:textColor="#000000"
+                            android:textSize="20dp"/>
+                        <Button
+                            android:id="@+id/callnow"
+                            android:layout_below="@+id/scrollView"
+                            android:layout_width="250dp"
+                            android:layout_height="65dp"
+                            android:gravity="center"
+                            android:text="CALL NOW"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:clickable="true"
+                            android:background="@drawable/bgbtn"
+                            android:layout_marginTop="20dp"/>
+
+                        <Button
+                            android:text="book appointment"
+                            android:id="@+id/bookappointment"
+                            android:layout_below="@id/callnow"
+                            android:layout_width="250dp"
+                            android:layout_height="65dp"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:clickable="true"
+                            android:background="@drawable/bgbtn"
+                            android:layout_marginTop="10dp"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </ScrollView>
+
+        </RelativeLayout>
+    </ScrollView>

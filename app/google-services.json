@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862384212425",
+    "firebase_url": "https://health--search.firebaseio.com",
+    "project_id": "health--search",
+    "storage_bucket": "health--search.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862384212425:android:c15cd42f5e95088b54c018",
+        "android_client_info": {
+          "package_name": "com.kushjuthani.healthsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862384212425-4ahfgajpk19ddf4i9185df64s6v0ckjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIhVBYbUm3eY7qUwdEFw3gC1_WC716BHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862384212425-4ahfgajpk19ddf4i9185df64s6v0ckjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
